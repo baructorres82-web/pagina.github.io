@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El Independiente | 29 de septiembre de 1821</title>
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- BOTÓN DE LECTURA -->
+    <button id="modoLectura" class="boton-flotante">
+        ☰ Modo lectura
+    </button>
+
+
+    <!-- PERIÓDICO -->
+
+    <main class="periodico" id="periodico">
+
+        <!-- ENCABEZADO -->
+
+        <header class="encabezado">
+
+            <div class="fecha">
+                MÉXICO · 29 DE SEPTIEMBRE DE 1821
+            </div>
+
+            <h1>EL INDEPENDIENTE</h1>
+
+            <div class="lema">
+                Periódico de la Nueva Nación
+            </div>
+
+            <div class="linea"></div>
+
+            <div class="datos">
+                <span>EDICIÓN EXTRAORDINARIA</span>
+                <span>PRECIO: 1 REAL</span>
+                <span>NÚMERO 1</span>
+            </div>
+
+        </header>
+
+
+        <!-- NOTICIA PRINCIPAL -->
+
+        <section class="principal">
+
+            <div class="categoria">
+                NOTICIAS DE LA CAPITAL
+            </div>
+
+            <h2>
+                ¡LA INDEPENDENCIA HA SIDO CONSUMADA!
+            </h2>
+
+            <h3>
+                El Ejército Trigarante entra triunfalmente a la Ciudad de México
+            </h3>
+
+            <div class="autor">
+                Por nuestros corresponsales en la capital
+            </div>
+
+
+            <div class="contenido-principal">
+
+                <!-- IMAGEN -->
+
+                <div class="imagen-principal">
+
+                    <img
+                        id="imagenPrincipal"
+                        src="entrada-trigarante.jpg"
+                        alt="Entrada del Ejército Trigarante a la Ciudad de México"
+                    >
+
+                    <p>
+                        Representación de la entrada del Ejército Trigarante
+                        a la Ciudad de México.
+                    </p>
+
+                </div>
+
+
+                <!-- TEXTO -->
+
+                <div class="texto-principal">
+
+                    <p class="inicial">E</p>
+
+                    <p>
+                        <strong>Ciudad de México, 29 de septiembre de 1821.</strong>
+                        Apenas han transcurrido dos días desde que las tropas
+                        del Ejército de las Tres Garantías hicieron su entrada
+                        triunfal en nuestra capital.
+                    </p>
+
+                    <p>
+                        El pasado 27 de septiembre, la ciudad recibió a las
+                        fuerzas encabezadas por
+                        <strong>Agustín de Iturbide</strong>, en un acontecimiento
+                        que marca la consumación de la lucha por la independencia.
+                    </p>
+
+                    <p>
+                        Las calles fueron adornadas para recibir a las tropas,
+                        mientras numerosos habitantes se reunían para presenciar
+                        el histórico desfile.
+                    </p>
+
+                    <p>
+                        La entrada del Ejército Trigarante representa un momento
+                        decisivo para la nación mexicana después de largos años
+                        de conflicto.
+                    </p>
+
+                    <button class="leer-mas" data-noticia="principal">
+                        Leer noticia completa
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TRES COLUMNAS -->
+
+        <section class="columnas">
+
+
+            <!-- NOTICIA SECUNDARIA -->
+
+            <article class="noticia tarjeta-noticia">
+
+                <div class="etiqueta">
+                    DOCUMENTOS
+                </div>
+
+                <h2>
+                    SE FIRMA EL ACTA DE INDEPENDENCIA
+                </h2>
+
+                <div class="separador"></div>
+
+                <p>
+                    El día de ayer, 28 de septiembre, quedó firmada el Acta
+                    de Independencia del Imperio Mexicano.
+                </p>
+
+                <p>
+                    Con este documento se establece formalmente la separación
+                    de la nación mexicana respecto de la monarquía española.
+                </p>
+
+                <p>
+                    La Junta Provisional Gubernativa participa ahora en la
+                    organización del nuevo gobierno.
+                </p>
+
+                <button class="leer-mas" data-noticia="acta">
+                    Leer más
+                </button>
+
+            </article>
+
+
+            <!-- EDITORIAL -->
+
+            <article class="editorial tarjeta-noticia">
+
+                <div class="etiqueta">
+                    EDITORIAL
+                </div>
+
+                <h2>
+                    UN NUEVO COMIENZO
+                </h2>
+
+                <div class="separador"></div>
+
+                <p>
+                    La jornada que acaba de vivir nuestra capital será
+                    recordada por las generaciones venideras.
+                </p>
+
+                <p>
+                    Comienza ahora una nueva etapa para nuestra nación.
+                    Corresponderá a sus habitantes construir las instituciones
+                    que habrán de dirigir el destino del nuevo país.
+                </p>
+
+                <p class="firma">
+                    — Redacción de <em>El Independiente</em>
+                </p>
+
+                <button class="leer-mas" data-noticia="editorial">
+                    Leer editorial
+                </button>
+
+            </article>
+
+
+            <!-- NOTA BREVE -->
+
+            <article class="nota tarjeta-noticia">
+
+                <div class="etiqueta">
+                    BREVE
+                </div>
+
+                <h2>
+                    LAS TRES GARANTÍAS
+                </h2>
+
+                <div class="separador"></div>
+
+                <p>
+                    El Ejército Trigarante tomó como principios
+                    <strong>Religión, Independencia y Unión</strong>,
+                    establecidos en el Plan de Iguala.
+                </p>
+
+                <div class="frase">
+                    “Religión · Independencia · Unión”
+                </div>
+
+                <button class="leer-mas" data-noticia="garantias">
+                    Leer más
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <!-- ÚLTIMA HORA -->
+
+        <section class="ultima-hora">
+
+            <div>
+                <strong>ÚLTIMA HORA</strong>
+            </div>
+
+            <p>
+                La capital continúa con las celebraciones por los recientes
+                acontecimientos que han dado paso a la nueva nación mexicana.
+            </p>
+
+        </section>
+
+
+        <!-- PIE -->
+
+        <footer>
+
+            <span>EL INDEPENDIENTE</span>
+
+            <span>
+                MÉXICO · 29 DE SEPTIEMBRE DE 1821
+            </span>
+
+            <span>
+                EDICIÓN EXTRAORDINARIA
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <!-- VENTANA DE NOTICIA -->
+
+    <div id="modal" class="modal">
+
+        <div class="modal-contenido">
+
+            <button id="cerrarModal" class="cerrar">
+                ×
+            </button>
+
+            <div class="etiqueta" id="modalEtiqueta">
+                NOTICIA
+            </div>
+
+            <h2 id="modalTitulo">
+                Título
+            </h2>
+
+            <div class="separador"></div>
+
+            <div id="modalTexto"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- VISOR DE IMAGEN -->
+
+    <div id="visorImagen" class="visor-imagen">
+
+        <button id="cerrarImagen" class="cerrar-imagen">
+            ×
+        </button>
+
+        <img
+            id="imagenGrande"
+            src="entrada-trigarante.jpg"
+            alt="Imagen ampliada"
+        >
+
+    </div>
+
+
+    <!-- RELOJ -->
+
+    <div id="reloj" class="reloj">
+        00:00:00
+    </div>
+
+</body>
+</html>
